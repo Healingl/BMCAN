@@ -1,2 +1,2 @@
 # BMCAN
-Coming Soon...
+Core training codes for peer review.

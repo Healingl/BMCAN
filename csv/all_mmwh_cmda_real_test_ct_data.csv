@@ -1,0 +1,5 @@
+img_path,label_path
+/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/image_ct_1003.nii.gz,/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/gth_ct_1003.nii.gz
+/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/image_ct_1008.nii.gz,/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/gth_ct_1008.nii.gz
+/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/image_ct_1014.nii.gz,/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/gth_ct_1014.nii.gz
+/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/image_ct_1019.nii.gz,/mnt/data3/zyz_experiments/BrainAndHeartUnsupervisedSegmentation/data/Heart/MMWHS2017/test_ct_image&labels/gth_ct_1019.nii.gz
