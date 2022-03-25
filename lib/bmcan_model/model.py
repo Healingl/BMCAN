@@ -838,38 +838,3 @@ class ResnetBlock(nn.Module):
         out = x + self.conv_block(x)  # add skip connections
         return out
 
-
-def count_param(model):
-    param_count = 0
-    for param in model.parameters():
-        param_count += param.view(-1).size()[0]
-    return param_count
-if __name__ == '__main__':
-    print('#### Test Case ###')
-    batch_size = 2
-
-    input_dim = 1
-    x = torch.rand(batch_size, input_dim, 256, 256)
-    print('input',x.size())
-    patchGANDis = PatchGANDiscriminator(in_dim=input_dim, out_dim=1)
-
-    param = count_param(patchGANDis)
-    print('seg_shared totoal parameters: %.2fM (%d)' % (param / 1e6, param))
-
-    output = patchGANDis(x)
-    print('output',output.size())
-
-# if __name__ == '__main__':
-#     print('#### Test Case ###')
-#     batch_size = 2
-#
-#     input_dim = 1
-#     x = torch.rand(batch_size, input_dim, 256, 256)
-#     print('input',x.size())
-#     res50 = ResNetN(in_dim=1, n_class=5, n=50)
-#
-#     param = count_param(res50)
-#     print('seg_shared totoal parameters: %.2fM (%d)' % (param / 1e6, param))
-#
-#     output = res50(x)
-#     print('output',output.size())

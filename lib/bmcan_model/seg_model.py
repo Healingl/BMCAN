@@ -3,10 +3,10 @@ import math
 import torch.utils.model_zoo as model_zoo
 import torch
 import numpy as np
-#from torchvision.models.resnet import model_urls    #用于下载预训练好的resnet模型
+#from torchvision.models.resnet import model_urls
 from torchvision import models
-
-RESTORE_FROM = 'http://vllab.ucmerced.edu/ytsai/CVPR18/DeepLab_resnet_pretrained_init-f81d91e8.pth'
+#
+# RESTORE_FROM = 'http://vllab.ucmerced.edu/ytsai/CVPR18/DeepLab_resnet_pretrained_init-f81d91e8.pth'
 
 affine_par = True
 
@@ -257,21 +257,3 @@ def DeeplabMulti(pretrained,layers, in_dim=1, num_classes=5):
 def ResNet(in_dim, num_classes, layers):
     model = ResNetMulti(Bottleneck, layers, in_dim, num_classes)
     return model
-
-
-# def ResNet(in_dim, num_classes, layers):
-#     model = ResNetMulti(Bottleneck, layers, in_dim, num_classes)
-#     resnet50 = models.resnet50(pretrained=True)
-#     #读取参数
-#     pretrained_dict=resnet50.state_dict()
-#     model_dict = model.state_dict()
-#     #将pretrained_dict中不属于model_dict的键剔除掉
-#     # for k,v in pretrained_dict.items():
-#     #     k_parts = k.split('.')
-#     #     if k in model_dict and k_parts[1]!='conv1':
-#     #         pretrained_dict = {k,v}
-#     pretrained_dict = {k: v for k, v in pretrained_dict.items() if k in model_dict}
-#     pretrained_dict = {k: v for k, v in pretrained_dict.items() if not k == 'conv1.weight'}   #因为imagenet里面的图片通道数是3 而我们的是1 所以不能使用这一层的参数
-#     model_dict.update(pretrained_dict)
-#     model.load_state_dict(model_dict)
-#     return model

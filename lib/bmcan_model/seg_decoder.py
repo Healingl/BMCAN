@@ -107,33 +107,3 @@ class SegDecoder(nn.Module):
 
         return seg_output
 
-def count_param(model):
-    param_count = 0
-    for param in model.parameters():
-        param_count += param.view(-1).size()[0]
-    return param_count
-if __name__ == '__main__':
-    print('#### Test Case ###')
-    batch_size = 2
-
-    input_channels = 1
-    n_classes = 5
-
-    img_size = 256
-
-    x = Variable(torch.rand(batch_size, input_channels, img_size, img_size))
-    seg_shared = ResNetN(in_dim=input_channels, n_class=n_classes,
-                         n=50)
-    print(seg_shared)
-    param = count_param(seg_shared)
-    print('seg_shared totoal parameters: %.2fM (%d)' % (param / 1e6, param))
-
-    _, _, _, _, feat_true_s_list = seg_shared(x)
-
-    for feat in feat_true_s_list:
-        print(feat.shape)
-
-
-    # seg_decoder = SegDecoder(output_shape=(batch_size,n_classes,img_size,img_size))
-    # seg_result =seg_decoder(input_feature_list=feat_true_s_list)
-    # print('output',seg_result.shape)
