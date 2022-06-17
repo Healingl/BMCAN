@@ -2,9 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabaf6f3-8b61-4c7e-a2fa-087054ce6c86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bmcan_model/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/seg_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bmcan_model/seg_decoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/seg_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bmcan_model/seg_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BMCAN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BMCAN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data_config/mmwh_settings_5_fold.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data_config/mmwh_settings_only_labels.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/model_config/BMCAN_CT2MR.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/model_config/BMCAN_MR2CT.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/all_mmwh_cmda_ct_training_sample_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/all_mmwh_cmda_ct_validation_sample_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/all_mmwh_cmda_mr_training_sample_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/all_mmwh_cmda_mr_validation_sample_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/all_mmwh_cmda_real_test_ct_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/all_mmwh_cmda_real_test_mr_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/UNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/model_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/nce_lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/nce_lib/base_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/nce_lib/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/nce_lib/patchnce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/nce_lib/stylegan_networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/nce_lib/template_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/nce_lib/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/seg_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/seg_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/util/loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/util/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/util/sitk_stuff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/util/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bmcan_model/util/visutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dataloader/medical_image_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dataloader/transforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eval/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eval/basic_metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eval/binary_metric.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eval/cmda_metric.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eval/evaluation_metics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eval/evaluation_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/acw_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/ce_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/dice_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/gd_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/loss_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/soft_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/test_BCE_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loss/test_CE_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/complex_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/data_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/device.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/image_pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/simple_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/step3_train_ct2mr_BMCAN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/step3_train_mr2ct_BMCAN.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,44 +68,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bmcan_model/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="840" selection-start-line="840" selection-end-line="840" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/bmcan_model/seg_decoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-              <folding>
-                <element signature="e#241#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bmcan_model/seg_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="259" selection-start-line="259" selection-end-line="259" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -66,14 +84,17 @@
         <option value="$PROJECT_DIR$/lib/bmcan_model/seg_model.py" />
         <option value="$PROJECT_DIR$/lib/bmcan_model/model.py" />
         <option value="$PROJECT_DIR$/lib/bmcan_model/seg_decoder.py" />
+        <option value="$PROJECT_DIR$/lib/bmcan_architecture/coatnet.py" />
+        <option value="$PROJECT_DIR$/lib/bmcan_architecture/res2next.py" />
+        <option value="$PROJECT_DIR$/stepx_stat_net_param.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-409" />
-    <option name="y" value="293" />
-    <option name="width" value="1940" />
-    <option name="height" value="1103" />
+    <option name="x" value="51" />
+    <option name="y" value="215" />
+    <option name="width" value="1555" />
+    <option name="height" value="635" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -83,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,11 +115,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GithubProject\BMCAN\lib\utils" />
+      <recent name="D:\GithubProject\BMCAN" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,6 +139,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="stepx_stat_net_param" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BMCAN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stepx_stat_net_param.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stepx_stat_net_param" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -128,7 +183,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31704095" />
@@ -139,7 +193,7 @@
       <window_info anchor="bottom" id="Python Console" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21659635" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.21560283" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.32004312" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -155,11 +209,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/bmcan_model/model_util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3734">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-3734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/step3_train_ct2mr_BMCAN.py">
@@ -178,7 +228,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bmcan_model/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="15751">
           <caret line="840" selection-start-line="840" selection-end-line="840" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
@@ -188,7 +238,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bmcan_model/seg_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
+        <state relative-caret-position="4807">
           <caret line="259" selection-start-line="259" selection-end-line="259" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -198,11 +248,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bmcan_model/seg_decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="134">
           <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
           <folding>
             <element signature="e#241#253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/model_config/BMCAN_CT2MR_Res2Next.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/model_config/BMCAN_MR2CT_Res2Next.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/mmd_loss.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/coatnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/anatomy_loss.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/discriminator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/patchnce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/util/sitk_stuff.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/util/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#31#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bmcan_architecture/res2next.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1435">
+          <caret line="276" column="30" lean-forward="true" selection-start-line="275" selection-start-column="10" selection-end-line="276" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stepx_stat_net_param.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
         </state>
       </provider>
     </entry>
