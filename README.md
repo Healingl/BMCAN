@@ -1,2 +1,2 @@
 # BMCAN
-Core training codes for peer review.
+Model architectures for peer review.
