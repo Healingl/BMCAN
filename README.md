@@ -1,2 +1,2 @@
 # BMCAN
-Model architectures for peer review.
+Preparing coding and projects...
