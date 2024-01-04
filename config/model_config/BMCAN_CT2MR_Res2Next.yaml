@@ -5,7 +5,7 @@ label_to_cate_dict: {'0':'bg', '1':'la_myo',  '2':'la_blood', '3':'lv_blood', '4
 cal_class_list: [1,2,3,4]
 
 # sample data csv
-all_mmwh_cmda_ct_train_sample_csv_path: './csv/all_mmwh_cmda_ct_all_training_sample_data.csv'
+all_mmwh_cmda_ct_train_sample_csv_path: './csv/all_mmwh_cmda_ct_training_sample_data.csv'
 all_mmwh_cmda_mr_train_sample_csv_path: './csv/all_mmwh_cmda_mr_training_sample_data.csv'
 
 all_mmwh_cmda_ct_val_sample_csv_path: './csv/all_mmwh_cmda_ct_validation_sample_data.csv'
@@ -16,7 +16,7 @@ all_mmwh_cmda_real_test_ct_data_csv_path: './csv/all_mmwh_cmda_real_test_ct_data
 all_mmwh_cmda_real_test_mr_data_csv_path: './csv/all_mmwh_cmda_real_test_mr_data.csv'
 
 
-gpus: [8]
+gpus: [0]
 isTrain: True
 image_size: [256, 256]
 use_aug: True
